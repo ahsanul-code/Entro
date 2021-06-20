@@ -8,9 +8,13 @@ body{
 }
 .top-container{
     background: url("/images/banner2.jpg") no-repeat;
-    height: 60rem;
+    background-size: contain;
+    height: 45rem;
 }
-/* .fas{
-    width: 2rem;
-    height: 2rem;
-} */
+nav {
+    display: flex;
+}
+li{
+    list-style: none;
+
+}
