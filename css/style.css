@@ -12,7 +12,7 @@ body{
     height: 45rem;
 }
 nav {
-    display: flex;
+    display: block;
 }
 li{
     list-style: none;
