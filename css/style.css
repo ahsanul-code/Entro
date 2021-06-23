@@ -10,11 +10,23 @@ body{
     background: url("/images/banner2.jpg") no-repeat;
     background-size: contain;
     height: 45rem;
+    /* display: flex; */
 }
-nav {
-    display: block;
+.flex {
+    display: flex;
+    justify-content: space-between;
 }
-li{
-    list-style: none;
+ul{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items:center;
+}
 
+ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.anchor{
+    margin-left: 5rem;
+    margin-top: 2rem;
 }
