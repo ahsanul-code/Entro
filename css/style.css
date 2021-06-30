@@ -10,24 +10,31 @@ body{
     background: url("/images/banner2.jpg") no-repeat;
     background-size: contain;
     height: 45rem;
-    /* display: flex; */
 }
 .nav-bar {
     display: flex;
     justify-content: space-between;
 }
-ul{
-    display: flex;
-    align-items:center;
-}
-
-ul li{
-    list-style: none;
-    margin-right: 20px;
-}
 .entro{
     margin-left: 5rem;
     margin-top: 2rem;
+    height: auto;
+}
+ul{
+    margin-top: 2rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items:center;
+    width: auto;
 }
 
+ul li{
+    height: 2rem;
+    /* width: 2.5rem; */
+    list-style: none;
+    margin-right: 20px;
+}
+.slideshow{
+    margin-top: 13rem;
+}
 
